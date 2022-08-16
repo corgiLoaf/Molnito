@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334899E2B3F3A897C7FCB08A /* Pods_MolnitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8524B9608567C4509F07C5D /* Pods_MolnitoTests.framework */; };
+		3B4CDBAF288182E9002525B3 /* Main_Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CDBAE288182E9002525B3 /* Main_Page.swift */; };
+		3B7CAB832881A804007A2165 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CAB822881A804007A2165 /* SwiftUIView.swift */; };
+		3B7CAB8528846DF2007A2165 /* Group_Tap1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CAB8428846DF2007A2165 /* Group_Tap1.swift */; };
+		3B7CAB872884727F007A2165 /* User_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CAB862884727F007A2165 /* User_List.swift */; };
+		3B7CAB8B28851842007A2165 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CAB8A28851842007A2165 /* Interface.swift */; };
+		3B7EC202287FD83C0042252A /* MolnitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC201287FD83C0042252A /* MolnitoApp.swift */; };
+		3B7EC204287FD83C0042252A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC203287FD83C0042252A /* ContentView.swift */; };
+		3B7EC206287FD83E0042252A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC205287FD83E0042252A /* Assets.xcassets */; };
+		3B7EC209287FD83E0042252A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC208287FD83E0042252A /* Preview Assets.xcassets */; };
+		3B7EC213287FD83E0042252A /* MolnitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC212287FD83E0042252A /* MolnitoTests.swift */; };
+		3B7EC21D287FD83E0042252A /* MolnitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC21C287FD83E0042252A /* MolnitoUITests.swift */; };
+		3B7EC21F287FD83E0042252A /* MolnitoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC21E287FD83E0042252A /* MolnitoUITestsLaunchTests.swift */; };
+		3B7EC23D28801F8F0042252A /* Group_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC23C28801F8F0042252A /* Group_List.swift */; };
+		3B7EC23F2880267E0042252A /* Group_detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC23E2880267E0042252A /* Group_detail.swift */; };
+		3B9C69D02885958E005F7CDE /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69CF2885958E005F7CDE /* Structures.swift */; };
+		3B9C69D52885A82F005F7CDE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69D42885A82F005F7CDE /* BaseView.swift */; };
+		3B9C69D72885A88F005F7CDE /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69D62885A88F005F7CDE /* SideMenuView.swift */; };
+		3B9C69D92885A8AD005F7CDE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69D82885A8AD005F7CDE /* InfoView.swift */; };
+		3B9C69DB2885A8B0005F7CDE /* InnerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69DA2885A8B0005F7CDE /* InnerInfoView.swift */; };
+		3B9C69DD2885A8C1005F7CDE /* dDayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69DC2885A8C1005F7CDE /* dDayCardView.swift */; };
+		3B9C69DF2885A8C4005F7CDE /* ManiteeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69DE2885A8C4005F7CDE /* ManiteeCardView.swift */; };
+		3B9C69E12885A8EE005F7CDE /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69E02885A8EE005F7CDE /* MessageView.swift */; };
+		3B9C69E32885A90E005F7CDE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69E22885A90E005F7CDE /* ProfileView.swift */; };
+		3B9C69E52885A93A005F7CDE /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69E42885A93A005F7CDE /* MissionView.swift */; };
+		3B9C69E72885A96B005F7CDE /* GroupRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69E62885A96B005F7CDE /* GroupRowView.swift */; };
+		3B9C69ED2885ACC3005F7CDE /* startmakeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69EC2885ACC3005F7CDE /* startmakeGroup.swift */; };
+		3B9C69EF2885ACCC005F7CDE /* makeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69EE2885ACCC005F7CDE /* makeGroup.swift */; };
+		3B9C69F12885ACD4005F7CDE /* showToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69F02885ACD4005F7CDE /* showToken.swift */; };
+		3B9C69F32885ACE3005F7CDE /* tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69F22885ACE3005F7CDE /* tokens.swift */; };
+		3B9C69F62885AD67005F7CDE /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69F52885AD67005F7CDE /* GroupViewModel.swift */; };
+		3B9C69F82885AD76005F7CDE /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69F72885AD76005F7CDE /* SideMenuViewModel.swift */; };
+		3B9C69FE2885AEB3005F7CDE /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69FD2885AEB3005F7CDE /* GroupModel.swift */; };
+		3B9C6A002885B570005F7CDE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C69FF2885B570005F7CDE /* LoginView.swift */; };
+		3B9C6A022885B573005F7CDE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C6A012885B573005F7CDE /* RegisterView.swift */; };
+		3B9C6A062885B5C8005F7CDE /* RoundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C6A052885B5C8005F7CDE /* RoundShape.swift */; };
+		3B9C6A082885B5CC005F7CDE /* CustomInptField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C6A072885B5CC005F7CDE /* CustomInptField.swift */; };
+		3BA2742F288135AC006D5E01 /* Room_Create_Enter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2742E288135AB006D5E01 /* Room_Create_Enter.swift */; };
+		3BA2743128813675006D5E01 /* Image_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2743028813675006D5E01 /* Image_Main.swift */; };
+		3BA27433288136CF006D5E01 /* Room_Enter_Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA27432288136CF006D5E01 /* Room_Enter_Popup.swift */; };
+		52118D2928861A33001F91CB /* missionTmp.json in Resources */ = {isa = PBXBuildFile; fileRef = 52118D2828861A33001F91CB /* missionTmp.json */; };
+		52118D2B28861C21001F91CB /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D2A28861C21001F91CB /* Mission.swift */; };
+		52118D2E28861CB4001F91CB /* MissionModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D2D28861CB4001F91CB /* MissionModelData.swift */; };
+		52118D3028862014001F91CB /* MissionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D2F28862014001F91CB /* MissionList.swift */; };
+		52118D322886227E001F91CB /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D312886227E001F91CB /* MissionDetail.swift */; };
+		52118D34288624C3001F91CB /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D33288624C3001F91CB /* CheckButton.swift */; };
+		52118D39288628DF001F91CB /* missionImg.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52118D38288628DF001F91CB /* missionImg.xcassets */; };
+		52118D3C28868DC7001F91CB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D3B28868DC7001F91CB /* Result.swift */; };
+		52118D3F28868DDD001F91CB /* ResultModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D3E28868DDD001F91CB /* ResultModelData.swift */; };
+		52118D4228868EB7001F91CB /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D4128868EB7001F91CB /* ResultRow.swift */; };
+		52118D44288696D4001F91CB /* ResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52118D43288696D4001F91CB /* ResultList.swift */; };
+		52C428CA2885D228003C9D9F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428C92885D228003C9D9F /* UserViewModel.swift */; };
+		52C428D22885D40E003C9D9F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428D12885D40E003C9D9F /* UserModel.swift */; };
+		52C428D62885DBB7003C9D9F /* nameTmp.json in Resources */ = {isa = PBXBuildFile; fileRef = 52C428D52885DBB7003C9D9F /* nameTmp.json */; };
+		52C428DD2885DE84003C9D9F /* GroupMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428DC2885DE84003C9D9F /* GroupMember.swift */; };
+		52C428DF2885E1AD003C9D9F /* matchTmp.json in Resources */ = {isa = PBXBuildFile; fileRef = 52C428DE2885E1AD003C9D9F /* matchTmp.json */; };
+		52C428E12885E449003C9D9F /* GroupModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428E02885E449003C9D9F /* GroupModelData.swift */; };
+		52C428E32885E681003C9D9F /* GroupMemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428E22885E681003C9D9F /* GroupMemberList.swift */; };
+		52C428E52885E93A003C9D9F /* GroupMemberRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428E42885E93A003C9D9F /* GroupMemberRow.swift */; };
+		52C428E72885F8DA003C9D9F /* DevelopersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428E62885F8DA003C9D9F /* DevelopersView.swift */; };
+		52C428EB288602FC003C9D9F /* MissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C428EA288602FC003C9D9F /* MissionRow.swift */; };
+		52CCD2D62886B219007F354B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCD2D52886B219007F354B /* ChatView.swift */; };
+		52CCD2DA2886B3B7007F354B /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCD2D92886B3B7007F354B /* BotResponse.swift */; };
+		52CCD2DC2886B8A6007F354B /* ChatColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CCD2DB2886B8A6007F354B /* ChatColor.xcassets */; };
+		716CDE6374687996406EDE80 /* Pods_Molnito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9403429CA1143B31FCA21A01 /* Pods_Molnito.framework */; };
+		B32A002937F1AA99D47B7FAE /* Pods_Molnito_MolnitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43288B1848E4B4788C00A5CE /* Pods_Molnito_MolnitoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7EC20F287FD83E0042252A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7EC1F6287FD83C0042252A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7EC1FD287FD83C0042252A;
+			remoteInfo = Molnito;
+		};
+		3B7EC219287FD83E0042252A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7EC1F6287FD83C0042252A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7EC1FD287FD83C0042252A;
+			remoteInfo = Molnito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B4CDBAE288182E9002525B3 /* Main_Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_Page.swift; sourceTree = "<group>"; };
+		3B7CAB822881A804007A2165 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3B7CAB8428846DF2007A2165 /* Group_Tap1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_Tap1.swift; sourceTree = "<group>"; };
+		3B7CAB862884727F007A2165 /* User_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_List.swift; sourceTree = "<group>"; };
+		3B7CAB8A28851842007A2165 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		3B7EC1FE287FD83C0042252A /* Molnito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molnito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC201287FD83C0042252A /* MolnitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolnitoApp.swift; sourceTree = "<group>"; };
+		3B7EC203287FD83C0042252A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B7EC205287FD83E0042252A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7EC208287FD83E0042252A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B7EC20E287FD83E0042252A /* MolnitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolnitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC212287FD83E0042252A /* MolnitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolnitoTests.swift; sourceTree = "<group>"; };
+		3B7EC218287FD83E0042252A /* MolnitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolnitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC21C287FD83E0042252A /* MolnitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolnitoUITests.swift; sourceTree = "<group>"; };
+		3B7EC21E287FD83E0042252A /* MolnitoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolnitoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B7EC23C28801F8F0042252A /* Group_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_List.swift; sourceTree = "<group>"; };
+		3B7EC23E2880267E0042252A /* Group_detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_detail.swift; sourceTree = "<group>"; };
+		3B9C69CF2885958E005F7CDE /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		3B9C69D42885A82F005F7CDE /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		3B9C69D62885A88F005F7CDE /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		3B9C69D82885A8AD005F7CDE /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		3B9C69DA2885A8B0005F7CDE /* InnerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerInfoView.swift; sourceTree = "<group>"; };
+		3B9C69DC2885A8C1005F7CDE /* dDayCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dDayCardView.swift; sourceTree = "<group>"; };
+		3B9C69DE2885A8C4005F7CDE /* ManiteeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManiteeCardView.swift; sourceTree = "<group>"; };
+		3B9C69E02885A8EE005F7CDE /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		3B9C69E22885A90E005F7CDE /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3B9C69E42885A93A005F7CDE /* MissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		3B9C69E62885A96B005F7CDE /* GroupRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRowView.swift; sourceTree = "<group>"; };
+		3B9C69EC2885ACC3005F7CDE /* startmakeGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startmakeGroup.swift; sourceTree = "<group>"; };
+		3B9C69EE2885ACCC005F7CDE /* makeGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeGroup.swift; sourceTree = "<group>"; };
+		3B9C69F02885ACD4005F7CDE /* showToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showToken.swift; sourceTree = "<group>"; };
+		3B9C69F22885ACE3005F7CDE /* tokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tokens.swift; sourceTree = "<group>"; };
+		3B9C69F52885AD67005F7CDE /* GroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewModel.swift; sourceTree = "<group>"; };
+		3B9C69F72885AD76005F7CDE /* SideMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		3B9C69FD2885AEB3005F7CDE /* GroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		3B9C69FF2885B570005F7CDE /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3B9C6A012885B573005F7CDE /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3B9C6A052885B5C8005F7CDE /* RoundShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundShape.swift; sourceTree = "<group>"; };
+		3B9C6A072885B5CC005F7CDE /* CustomInptField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInptField.swift; sourceTree = "<group>"; };
+		3BA2742E288135AB006D5E01 /* Room_Create_Enter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room_Create_Enter.swift; sourceTree = "<group>"; };
+		3BA2743028813675006D5E01 /* Image_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Main.swift; sourceTree = "<group>"; };
+		3BA27432288136CF006D5E01 /* Room_Enter_Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room_Enter_Popup.swift; sourceTree = "<group>"; };
+		43288B1848E4B4788C00A5CE /* Pods_Molnito_MolnitoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Molnito_MolnitoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52118D2828861A33001F91CB /* missionTmp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missionTmp.json; sourceTree = "<group>"; };
+		52118D2A28861C21001F91CB /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		52118D2D28861CB4001F91CB /* MissionModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModelData.swift; sourceTree = "<group>"; };
+		52118D2F28862014001F91CB /* MissionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionList.swift; sourceTree = "<group>"; };
+		52118D312886227E001F91CB /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
+		52118D33288624C3001F91CB /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
+		52118D38288628DF001F91CB /* missionImg.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = missionImg.xcassets; sourceTree = "<group>"; };
+		52118D3B28868DC7001F91CB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		52118D3E28868DDD001F91CB /* ResultModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModelData.swift; sourceTree = "<group>"; };
+		52118D4128868EB7001F91CB /* ResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRow.swift; sourceTree = "<group>"; };
+		52118D43288696D4001F91CB /* ResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultList.swift; sourceTree = "<group>"; };
+		52C428C92885D228003C9D9F /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		52C428D02885D337003C9D9F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		52C428D12885D40E003C9D9F /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		52C428D52885DBB7003C9D9F /* nameTmp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nameTmp.json; sourceTree = "<group>"; };
+		52C428DC2885DE84003C9D9F /* GroupMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMember.swift; sourceTree = "<group>"; };
+		52C428DE2885E1AD003C9D9F /* matchTmp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matchTmp.json; sourceTree = "<group>"; };
+		52C428E02885E449003C9D9F /* GroupModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModelData.swift; sourceTree = "<group>"; };
+		52C428E22885E681003C9D9F /* GroupMemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMemberList.swift; sourceTree = "<group>"; };
+		52C428E42885E93A003C9D9F /* GroupMemberRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMemberRow.swift; sourceTree = "<group>"; };
+		52C428E62885F8DA003C9D9F /* DevelopersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersView.swift; sourceTree = "<group>"; };
+		52C428EA288602FC003C9D9F /* MissionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRow.swift; sourceTree = "<group>"; };
+		52CCD2D52886B219007F354B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		52CCD2D92886B3B7007F354B /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+		52CCD2DB2886B8A6007F354B /* ChatColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChatColor.xcassets; sourceTree = "<group>"; };
+		6F5C42DD21150AB4EF0149D0 /* Pods-MolnitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MolnitoTests.debug.xcconfig"; path = "Target Support Files/Pods-MolnitoTests/Pods-MolnitoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9403429CA1143B31FCA21A01 /* Pods_Molnito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Molnito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF17D3D6F20F55806DC3009 /* Pods-Molnito-MolnitoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molnito-MolnitoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Molnito-MolnitoUITests/Pods-Molnito-MolnitoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B372016479AD380BE8F87CDB /* Pods-Molnito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molnito.release.xcconfig"; path = "Target Support Files/Pods-Molnito/Pods-Molnito.release.xcconfig"; sourceTree = "<group>"; };
+		B924C3447D06AC238A856B53 /* Pods-Molnito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molnito.debug.xcconfig"; path = "Target Support Files/Pods-Molnito/Pods-Molnito.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A5E682CB317B35AE54BC9C /* Pods-MolnitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MolnitoTests.release.xcconfig"; path = "Target Support Files/Pods-MolnitoTests/Pods-MolnitoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE37FEC50A43BE8FB75084CC /* Pods-Molnito-MolnitoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molnito-MolnitoUITests.release.xcconfig"; path = "Target Support Files/Pods-Molnito-MolnitoUITests/Pods-Molnito-MolnitoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8524B9608567C4509F07C5D /* Pods_MolnitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MolnitoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7EC1FB287FD83C0042252A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CDE6374687996406EDE80 /* Pods_Molnito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC20B287FD83E0042252A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334899E2B3F3A897C7FCB08A /* Pods_MolnitoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC215287FD83E0042252A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32A002937F1AA99D47B7FAE /* Pods_Molnito_MolnitoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7EC1F5287FD83C0042252A = {
+			isa = PBXGroup;
+			children = (
+				3B7EC200287FD83C0042252A /* Molnito */,
+				3B7EC211287FD83E0042252A /* MolnitoTests */,
+				3B7EC21B287FD83E0042252A /* MolnitoUITests */,
+				3B7EC1FF287FD83C0042252A /* Products */,
+				CEE763EEA133A86D24F45501 /* Pods */,
+				E75CFD7455E288AE272D321D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7EC1FF287FD83C0042252A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC1FE287FD83C0042252A /* Molnito.app */,
+				3B7EC20E287FD83E0042252A /* MolnitoTests.xctest */,
+				3B7EC218287FD83E0042252A /* MolnitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7EC200287FD83C0042252A /* Molnito */ = {
+			isa = PBXGroup;
+			children = (
+				52C428D02885D337003C9D9F /* Colors.xcassets */,
+				52C428DE2885E1AD003C9D9F /* matchTmp.json */,
+				3B7EC201287FD83C0042252A /* MolnitoApp.swift */,
+				3B7EC203287FD83C0042252A /* ContentView.swift */,
+				3B4CDBAE288182E9002525B3 /* Main_Page.swift */,
+				3B7CAB8A28851842007A2165 /* Interface.swift */,
+				3B9C69D42885A82F005F7CDE /* BaseView.swift */,
+				3B9C69F42885AD59005F7CDE /* ViewModel */,
+				52C428CF2885D337003C9D9F /* Auth */,
+				52C428CB2885D272003C9D9F /* Tab */,
+				52C428CD2885D2AB003C9D9F /* SideMenu */,
+				52C428CE2885D316003C9D9F /* Profile */,
+				52118D3A28868D54001F91CB /* Final */,
+				3B7EC22C287FEB6A0042252A /* Model */,
+				52C428CC2885D294003C9D9F /* Component */,
+				3B7EC22B287FEB640042252A /* Views */,
+				3B7EC205287FD83E0042252A /* Assets.xcassets */,
+				3B7EC207287FD83E0042252A /* Preview Content */,
+				3B7CAB822881A804007A2165 /* SwiftUIView.swift */,
+			);
+			path = Molnito;
+			sourceTree = "<group>";
+		};
+		3B7EC207287FD83E0042252A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC208287FD83E0042252A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B7EC211287FD83E0042252A /* MolnitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC212287FD83E0042252A /* MolnitoTests.swift */,
+			);
+			path = MolnitoTests;
+			sourceTree = "<group>";
+		};
+		3B7EC21B287FD83E0042252A /* MolnitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC21C287FD83E0042252A /* MolnitoUITests.swift */,
+				3B7EC21E287FD83E0042252A /* MolnitoUITestsLaunchTests.swift */,
+			);
+			path = MolnitoUITests;
+			sourceTree = "<group>";
+		};
+		3B7EC22B287FEB640042252A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C69F22885ACE3005F7CDE /* tokens.swift */,
+				3B9C69F02885ACD4005F7CDE /* showToken.swift */,
+				3B9C69EE2885ACCC005F7CDE /* makeGroup.swift */,
+				3B9C69EC2885ACC3005F7CDE /* startmakeGroup.swift */,
+				3BA2743028813675006D5E01 /* Image_Main.swift */,
+				3BA2742E288135AB006D5E01 /* Room_Create_Enter.swift */,
+				3BA27432288136CF006D5E01 /* Room_Enter_Popup.swift */,
+				3B7EC23C28801F8F0042252A /* Group_List.swift */,
+				3B7EC23E2880267E0042252A /* Group_detail.swift */,
+				3B7CAB8428846DF2007A2165 /* Group_Tap1.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B7EC22C287FEB6A0042252A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52C428D12885D40E003C9D9F /* UserModel.swift */,
+				3B9C69FD2885AEB3005F7CDE /* GroupModel.swift */,
+				3B9C69CF2885958E005F7CDE /* Structures.swift */,
+				52C428DC2885DE84003C9D9F /* GroupMember.swift */,
+				52C428E02885E449003C9D9F /* GroupModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9C69F42885AD59005F7CDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52C428C92885D228003C9D9F /* UserViewModel.swift */,
+				3B9C69F52885AD67005F7CDE /* GroupViewModel.swift */,
+				3B9C69F72885AD76005F7CDE /* SideMenuViewModel.swift */,
+				3B9C69FF2885B570005F7CDE /* LoginView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52118D2C28861C2B001F91CB /* mModel */ = {
+			isa = PBXGroup;
+			children = (
+				52118D2A28861C21001F91CB /* Mission.swift */,
+				52118D2D28861CB4001F91CB /* MissionModelData.swift */,
+			);
+			path = mModel;
+			sourceTree = "<group>";
+		};
+		52118D3A28868D54001F91CB /* Final */ = {
+			isa = PBXGroup;
+			children = (
+				52118D4028868E9F001F91CB /* rModel */,
+				52118D4128868EB7001F91CB /* ResultRow.swift */,
+				52118D43288696D4001F91CB /* ResultList.swift */,
+			);
+			path = Final;
+			sourceTree = "<group>";
+		};
+		52118D4028868E9F001F91CB /* rModel */ = {
+			isa = PBXGroup;
+			children = (
+				52118D3E28868DDD001F91CB /* ResultModelData.swift */,
+				52118D3B28868DC7001F91CB /* Result.swift */,
+			);
+			path = rModel;
+			sourceTree = "<group>";
+		};
+		52C428CB2885D272003C9D9F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				52CCD2D42886ADF7007F354B /* button */,
+				52C428D92885DC35003C9D9F /* message */,
+				52C428D82885DC2B003C9D9F /* mission */,
+				52C428D72885DC1A003C9D9F /* info */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		52C428CC2885D294003C9D9F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3B7CAB862884727F007A2165 /* User_List.swift */,
+				3B9C69E62885A96B005F7CDE /* GroupRowView.swift */,
+				3B9C6A072885B5CC005F7CDE /* CustomInptField.swift */,
+				3B9C69DE2885A8C4005F7CDE /* ManiteeCardView.swift */,
+				3B9C69DC2885A8C1005F7CDE /* dDayCardView.swift */,
+				3B9C6A052885B5C8005F7CDE /* RoundShape.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		52C428CD2885D2AB003C9D9F /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C69D62885A88F005F7CDE /* SideMenuView.swift */,
+				52C428E62885F8DA003C9D9F /* DevelopersView.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		52C428CE2885D316003C9D9F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C69E22885A90E005F7CDE /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		52C428CF2885D337003C9D9F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C6A012885B573005F7CDE /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		52C428D72885DC1A003C9D9F /* info */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C69DA2885A8B0005F7CDE /* InnerInfoView.swift */,
+				3B9C69D82885A8AD005F7CDE /* InfoView.swift */,
+				52C428D52885DBB7003C9D9F /* nameTmp.json */,
+				52C428E22885E681003C9D9F /* GroupMemberList.swift */,
+				52C428E42885E93A003C9D9F /* GroupMemberRow.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		52C428D82885DC2B003C9D9F /* mission */ = {
+			isa = PBXGroup;
+			children = (
+				52118D2C28861C2B001F91CB /* mModel */,
+				52118D2828861A33001F91CB /* missionTmp.json */,
+				3B9C69E42885A93A005F7CDE /* MissionView.swift */,
+				52C428EA288602FC003C9D9F /* MissionRow.swift */,
+				52118D2F28862014001F91CB /* MissionList.swift */,
+				52118D312886227E001F91CB /* MissionDetail.swift */,
+				52118D33288624C3001F91CB /* CheckButton.swift */,
+				52118D38288628DF001F91CB /* missionImg.xcassets */,
+			);
+			path = mission;
+			sourceTree = "<group>";
+		};
+		52C428D92885DC35003C9D9F /* message */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C69E02885A8EE005F7CDE /* MessageView.swift */,
+				52CCD2D52886B219007F354B /* ChatView.swift */,
+				52CCD2D92886B3B7007F354B /* BotResponse.swift */,
+				52CCD2DB2886B8A6007F354B /* ChatColor.xcassets */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		52CCD2D42886ADF7007F354B /* button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		CEE763EEA133A86D24F45501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B924C3447D06AC238A856B53 /* Pods-Molnito.debug.xcconfig */,
+				B372016479AD380BE8F87CDB /* Pods-Molnito.release.xcconfig */,
+				ABF17D3D6F20F55806DC3009 /* Pods-Molnito-MolnitoUITests.debug.xcconfig */,
+				DE37FEC50A43BE8FB75084CC /* Pods-Molnito-MolnitoUITests.release.xcconfig */,
+				6F5C42DD21150AB4EF0149D0 /* Pods-MolnitoTests.debug.xcconfig */,
+				C2A5E682CB317B35AE54BC9C /* Pods-MolnitoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E75CFD7455E288AE272D321D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9403429CA1143B31FCA21A01 /* Pods_Molnito.framework */,
+				43288B1848E4B4788C00A5CE /* Pods_Molnito_MolnitoUITests.framework */,
+				E8524B9608567C4509F07C5D /* Pods_MolnitoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7EC1FD287FD83C0042252A /* Molnito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC222287FD83E0042252A /* Build configuration list for PBXNativeTarget "Molnito" */;
+			buildPhases = (
+				17F6EAE9831E3B43BE5E23EA /* [CP] Check Pods Manifest.lock */,
+				3B7EC1FA287FD83C0042252A /* Sources */,
+				3B7EC1FB287FD83C0042252A /* Frameworks */,
+				3B7EC1FC287FD83C0042252A /* Resources */,
+				F608F0703BAB8A0B3FBE4A1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molnito;
+			productName = Molnito;
+			productReference = 3B7EC1FE287FD83C0042252A /* Molnito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7EC20D287FD83E0042252A /* MolnitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC225287FD83E0042252A /* Build configuration list for PBXNativeTarget "MolnitoTests" */;
+			buildPhases = (
+				13F82179AD85328837F94EA1 /* [CP] Check Pods Manifest.lock */,
+				3B7EC20A287FD83E0042252A /* Sources */,
+				3B7EC20B287FD83E0042252A /* Frameworks */,
+				3B7EC20C287FD83E0042252A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7EC210287FD83E0042252A /* PBXTargetDependency */,
+			);
+			name = MolnitoTests;
+			productName = MolnitoTests;
+			productReference = 3B7EC20E287FD83E0042252A /* MolnitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B7EC217287FD83E0042252A /* MolnitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC228287FD83E0042252A /* Build configuration list for PBXNativeTarget "MolnitoUITests" */;
+			buildPhases = (
+				0969800B95A78A841EB0F1BA /* [CP] Check Pods Manifest.lock */,
+				3B7EC214287FD83E0042252A /* Sources */,
+				3B7EC215287FD83E0042252A /* Frameworks */,
+				3B7EC216287FD83E0042252A /* Resources */,
+				025B47578CA3C8E219FE4DAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7EC21A287FD83E0042252A /* PBXTargetDependency */,
+			);
+			name = MolnitoUITests;
+			productName = MolnitoUITests;
+			productReference = 3B7EC218287FD83E0042252A /* MolnitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7EC1F6287FD83C0042252A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3B7EC1FD287FD83C0042252A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3B7EC20D287FD83E0042252A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3B7EC1FD287FD83C0042252A;
+					};
+					3B7EC217287FD83E0042252A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3B7EC1FD287FD83C0042252A;
+					};
+				};
+			};
+			buildConfigurationList = 3B7EC1F9287FD83C0042252A /* Build configuration list for PBXProject "Molnito" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7EC1F5287FD83C0042252A;
+			productRefGroup = 3B7EC1FF287FD83C0042252A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7EC1FD287FD83C0042252A /* Molnito */,
+				3B7EC20D287FD83E0042252A /* MolnitoTests */,
+				3B7EC217287FD83E0042252A /* MolnitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7EC1FC287FD83C0042252A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C428D62885DBB7003C9D9F /* nameTmp.json in Resources */,
+				3B7EC209287FD83E0042252A /* Preview Assets.xcassets in Resources */,
+				3B7EC206287FD83E0042252A /* Assets.xcassets in Resources */,
+				52118D2928861A33001F91CB /* missionTmp.json in Resources */,
+				52118D39288628DF001F91CB /* missionImg.xcassets in Resources */,
+				52C428DF2885E1AD003C9D9F /* matchTmp.json in Resources */,
+				52CCD2DC2886B8A6007F354B /* ChatColor.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC20C287FD83E0042252A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC216287FD83E0042252A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025B47578CA3C8E219FE4DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molnito-MolnitoUITests/Pods-Molnito-MolnitoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molnito-MolnitoUITests/Pods-Molnito-MolnitoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Molnito-MolnitoUITests/Pods-Molnito-MolnitoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0969800B95A78A841EB0F1BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Molnito-MolnitoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13F82179AD85328837F94EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MolnitoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17F6EAE9831E3B43BE5E23EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Molnito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F608F0703BAB8A0B3FBE4A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molnito/Pods-Molnito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molnito/Pods-Molnito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Molnito/Pods-Molnito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7EC1FA287FD83C0042252A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C428E72885F8DA003C9D9F /* DevelopersView.swift in Sources */,
+				3B9C69D72885A88F005F7CDE /* SideMenuView.swift in Sources */,
+				3B9C69EF2885ACCC005F7CDE /* makeGroup.swift in Sources */,
+				3B9C69F82885AD76005F7CDE /* SideMenuViewModel.swift in Sources */,
+				3B7CAB8528846DF2007A2165 /* Group_Tap1.swift in Sources */,
+				52118D4228868EB7001F91CB /* ResultRow.swift in Sources */,
+				3B9C69F12885ACD4005F7CDE /* showToken.swift in Sources */,
+				52118D3C28868DC7001F91CB /* Result.swift in Sources */,
+				3B7EC204287FD83C0042252A /* ContentView.swift in Sources */,
+				52118D322886227E001F91CB /* MissionDetail.swift in Sources */,
+				52C428D22885D40E003C9D9F /* UserModel.swift in Sources */,
+				52C428EB288602FC003C9D9F /* MissionRow.swift in Sources */,
+				52118D3028862014001F91CB /* MissionList.swift in Sources */,
+				3B9C69DD2885A8C1005F7CDE /* dDayCardView.swift in Sources */,
+				3B7CAB8B28851842007A2165 /* Interface.swift in Sources */,
+				3B9C69E12885A8EE005F7CDE /* MessageView.swift in Sources */,
+				3B9C69DF2885A8C4005F7CDE /* ManiteeCardView.swift in Sources */,
+				3B9C69FE2885AEB3005F7CDE /* GroupModel.swift in Sources */,
+				3B9C69E72885A96B005F7CDE /* GroupRowView.swift in Sources */,
+				3B7CAB832881A804007A2165 /* SwiftUIView.swift in Sources */,
+				52CCD2DA2886B3B7007F354B /* BotResponse.swift in Sources */,
+				3B9C69ED2885ACC3005F7CDE /* startmakeGroup.swift in Sources */,
+				3B9C69DB2885A8B0005F7CDE /* InnerInfoView.swift in Sources */,
+				52C428E52885E93A003C9D9F /* GroupMemberRow.swift in Sources */,
+				3B9C69F62885AD67005F7CDE /* GroupViewModel.swift in Sources */,
+				3BA27433288136CF006D5E01 /* Room_Enter_Popup.swift in Sources */,
+				52118D2B28861C21001F91CB /* Mission.swift in Sources */,
+				3B9C6A082885B5CC005F7CDE /* CustomInptField.swift in Sources */,
+				3BA2743128813675006D5E01 /* Image_Main.swift in Sources */,
+				52C428E12885E449003C9D9F /* GroupModelData.swift in Sources */,
+				52118D3F28868DDD001F91CB /* ResultModelData.swift in Sources */,
+				52118D34288624C3001F91CB /* CheckButton.swift in Sources */,
+				52118D2E28861CB4001F91CB /* MissionModelData.swift in Sources */,
+				52CCD2D62886B219007F354B /* ChatView.swift in Sources */,
+				52C428DD2885DE84003C9D9F /* GroupMember.swift in Sources */,
+				3B4CDBAF288182E9002525B3 /* Main_Page.swift in Sources */,
+				3B7CAB872884727F007A2165 /* User_List.swift in Sources */,
+				52C428E32885E681003C9D9F /* GroupMemberList.swift in Sources */,
+				3B7EC202287FD83C0042252A /* MolnitoApp.swift in Sources */,
+				3B9C69D02885958E005F7CDE /* Structures.swift in Sources */,
+				3B7EC23F2880267E0042252A /* Group_detail.swift in Sources */,
+				3B9C69E52885A93A005F7CDE /* MissionView.swift in Sources */,
+				3B9C6A022885B573005F7CDE /* RegisterView.swift in Sources */,
+				3B9C69E32885A90E005F7CDE /* ProfileView.swift in Sources */,
+				52C428CA2885D228003C9D9F /* UserViewModel.swift in Sources */,
+				3BA2742F288135AC006D5E01 /* Room_Create_Enter.swift in Sources */,
+				3B7EC23D28801F8F0042252A /* Group_List.swift in Sources */,
+				3B9C6A062885B5C8005F7CDE /* RoundShape.swift in Sources */,
+				3B9C69D92885A8AD005F7CDE /* InfoView.swift in Sources */,
+				3B9C6A002885B570005F7CDE /* LoginView.swift in Sources */,
+				52118D44288696D4001F91CB /* ResultList.swift in Sources */,
+				3B9C69D52885A82F005F7CDE /* BaseView.swift in Sources */,
+				3B9C69F32885ACE3005F7CDE /* tokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC20A287FD83E0042252A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC213287FD83E0042252A /* MolnitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC214287FD83E0042252A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC21D287FD83E0042252A /* MolnitoUITests.swift in Sources */,
+				3B7EC21F287FD83E0042252A /* MolnitoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7EC210287FD83E0042252A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7EC1FD287FD83C0042252A /* Molnito */;
+			targetProxy = 3B7EC20F287FD83E0042252A /* PBXContainerItemProxy */;
+		};
+		3B7EC21A287FD83E0042252A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7EC1FD287FD83C0042252A /* Molnito */;
+			targetProxy = 3B7EC219287FD83E0042252A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B7EC220287FD83E0042252A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7EC221287FD83E0042252A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7EC223287FD83E0042252A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B924C3447D06AC238A856B53 /* Pods-Molnito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Molnito/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Molnito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7EC224287FD83E0042252A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B372016479AD380BE8F87CDB /* Pods-Molnito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Molnito/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Molnito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B7EC226287FD83E0042252A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5C42DD21150AB4EF0149D0 /* Pods-MolnitoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MolnitoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Molnito.app/Molnito";
+			};
+			name = Debug;
+		};
+		3B7EC227287FD83E0042252A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A5E682CB317B35AE54BC9C /* Pods-MolnitoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MolnitoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Molnito.app/Molnito";
+			};
+			name = Release;
+		};
+		3B7EC229287FD83E0042252A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF17D3D6F20F55806DC3009 /* Pods-Molnito-MolnitoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MolnitoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Molnito;
+			};
+			name = Debug;
+		};
+		3B7EC22A287FD83E0042252A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE37FEC50A43BE8FB75084CC /* Pods-Molnito-MolnitoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MolnitoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Molnito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7EC1F9287FD83C0042252A /* Build configuration list for PBXProject "Molnito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC220287FD83E0042252A /* Debug */,
+				3B7EC221287FD83E0042252A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC222287FD83E0042252A /* Build configuration list for PBXNativeTarget "Molnito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC223287FD83E0042252A /* Debug */,
+				3B7EC224287FD83E0042252A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC225287FD83E0042252A /* Build configuration list for PBXNativeTarget "MolnitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC226287FD83E0042252A /* Debug */,
+				3B7EC227287FD83E0042252A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC228287FD83E0042252A /* Build configuration list for PBXNativeTarget "MolnitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC229287FD83E0042252A /* Debug */,
+				3B7EC22A287FD83E0042252A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7EC1F6287FD83C0042252A /* Project object */;
+}

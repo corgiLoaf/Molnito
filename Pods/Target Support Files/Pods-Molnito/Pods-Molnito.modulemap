@@ -1,0 +1,6 @@
+framework module Pods_Molnito {
+  umbrella header "Pods-Molnito-umbrella.h"
+
+  export *
+  module * { export * }
+}
